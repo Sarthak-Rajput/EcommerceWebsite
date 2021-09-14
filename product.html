@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore - Shopping And Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="menu.js"></script>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    
+</head>
+<body>
+
+    
+
+<div class="container">
+
+    <div class="navbar">
+      <div class="logo cursor">
+          <!-- <a href="home.html"></a> -->
+          <a href="home.html"><img src="images/logo.png" width="150px"></a>
+      </div>
+     <nav>
+         <ul class="design" id="Menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="login.html">Account</a></li>
+         </ul>
+    </nav> 
+    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" class="cursor"></a>
+    <img src="images/menu.png" class="icon" onclick="toggle()">
+    </div>
+</div>
+    
+<div class="small">
+    <div class="row row2">
+      <h2>All Products</h2>
+            <div>
+              <a href="#" class="btn3 active" data-filter="all" id="one">All</a>
+              <a href="#" class="btn3" data-filter="watch" id="two">Watch</a>
+              <a href="#" class="btn3" data-filter="T-Shirts" id="three">T-Shirt</a>
+              <a href="#" class="btn3" data-filter="shoes" id="four">Shoes</a>
+              <a href="#" class="btn3"data-filter="trousers" id="five">Trousers</a>
+              <a href="#" class="btn3" data-filter="socks" id="six">Socks</a>
+          </div>
+    </div>
+       
+
+    <div id="store-products">
+
+        <div class="row items2">
+            <div class="col4 store-product T-Shirts">
+               <!-- <a href="product_details_1.html"></a> -->
+               <a href="product_details_1.html"><img src="images/product-1.jpg" class="cursor"></a>
+               <h4>Puma Red Printed T-Shirt</h4>
+               <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half-o"></span> 
+               </div>
+               <p>$15.00</p>
+            </div>
+            <div class="col4 store-product shoes">
+               <img src="images/product-2.jpg" class="cursor">
+               <h4>HRX by Hrithik Roshan</h4>
+               <div class="rating">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-o"></span> 
+                </div>
+             <p>$39.00</p>
+            </div>
+            <div class="col4 store-product shoes">
+                <img src="images/product-5.jpg" class="cursor">
+                <h4>ADIDAS Originals</h4>
+                <div class="rating">
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star-half-o"></span> 
+                </div>
+                <p>$49.99</p>
+           </div>
+            <div class="col4 store-product T-Shirts">
+                <img src="images/product-4.jpg" class="cursor">
+                <h4>Puma Blue T-Shirt</h4>
+               <div class="rating">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-half-o"></span>
+                 <span class="fa fa-star-o"></span> 
+                </div>
+             <p>$10.00</p>
+          </div>
+       
+            <div class="col4 store-product trousers">
+                <img src="images/product-3.jpg" class="cursor">
+                <h4>WROGN</h4>
+               <div class="rating">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-o"></span>
+                </div>
+             <p>$18.00</p>
+           </div> 
+            <div class="col4 store-product T-Shirts">
+              <img src="images/product-6.jpg" class="cursor">
+              <h4>Puma</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-o"></span> 
+              </div>
+              <p>$15.00</p>
+            </div>
+            <div class="col4 store-product socks">
+                <a href="product_details_2.html"><img src="images/product-7.jpg" class="cursor"></a>
+              <h4>HRX by Hrithik Roshan</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-half-o"></span>
+               <span class="fa fa-star-o"></span>
+              </div>
+              <p>$5.00</p>
+            </div>
+            <div class="col4 store-product watch">
+              <img src="images/product-8.jpg" class="cursor">
+              <h4>Fossil</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-o"></span> 
+              </div>
+              <p>$44.99</p>
+            </div>
+       
+            <div class="col4 store-product watch">
+                 <img src="images/product-9.jpg" class="cursor">
+                 <h4>Roadster</h4>
+                 <div class="rating">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-o"></span> 
+                 </div>
+                 <p>$29.99</p>
+            </div>
+            <div class="col4 store-product shoes">
+              <img src="images/product-10.jpg" class="cursor">
+              <h4>Sparx Sneakers</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-o"></span>
+               <span class="fa fa-star-o"></span> 
+              </div>
+              <p>$35.00</p>
+            </div>
+            <div class="col4 store-product shoes">
+              <img src="images/product-11.jpg" class="cursor">
+              <h4>Roadster Flats</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-half-o"></span>
+               <span class="fa fa-star-o"></span>
+              </div>
+              <p>$19.99</p>
+            </div>
+            <div class="col4 store-product trousers">
+              <img src="images/product-12.jpg" class="cursor">
+              <h4>WROGN</h4>
+              <div class="rating">
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star-half-o"></span> 
+              </div>
+              <p>$20.00</p>
+            </div>
+            <div class="col4 store-product shoes">
+                <a href="product_details_3.html"><img src="images/product-13.png" class="cursor"></a>
+                <h4>HIGHLANDER</h4>
+                <div class="rating">
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star-o"></span> 
+                </div>
+                <p>$34.99</p>
+            </div>
+            <div class="col4 store-product socks">
+                <img src="images/product-14.jpeg" class="cursor">
+                <h4>Mast & Harbour</h4>
+                <div class="rating">
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star-half-o"></span> 
+                </div>
+                <p>$5.00</p>
+            </div>
+            <div class="col4 store-product T-Shirts">
+                <img src="images/product-15.png" class="cursor">
+                <h4>Monte Carlo T-Shirt</h4>
+                <div class="rating">
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star-o"></span> 
+                 <span class="fa fa-star-o"></span>
+                </div>
+                <p>$9.99</p>
+            </div>
+            <div class="col4 store-product shoes">
+                <img src="images/product-16.png" class="cursor">
+                <h4>Puma</h4>
+                <div class="rating">
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star"></span>
+                 <span class="fa fa-star-o"></span> 
+                </div>
+                <p>$45.00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn2">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>  
+</div>
+    
+<div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS system</p>
+                    <div class="app">
+                        <img src="images/app-store.png">
+                        <img src="images/play-store.png">
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <img src="images/logo-white.png">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde consequatur nostrum consequuntur quaerat hsad adsjh</p>        
+                 </div>
+                 <div class="footer-col3">
+                    <h3>Useful Info</h3>
+                    <ul>
+                        <li>Blogs</li>
+                        <li>Return Policy</li>
+                        <li>Partners</li>
+                    </ul>
+                </div>
+                <div class="footer-col4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="bottom">Copyright &copy; www.redstore.com. All rights reserved</p>
+        </div>
+</div>
+<script src="product.js"></script>
+</body>
+</html>
+
